@@ -54,3 +54,10 @@ body {
   opacity: 1;
   transition: opacity .3s ease-in .4s;
 }
+
+@media(max-width: 767px) {
+  .slide__list {
+    flex-direction: column;
+    height: 100%;
+  }
+}
